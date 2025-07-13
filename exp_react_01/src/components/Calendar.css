@@ -1,0 +1,46 @@
+.calendar {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .calendar h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .date-button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.2s;
+  }
+  
+  .date-button:hover {
+    background-color: #f0f0f0;
+    border-color: #999;
+  }
+  
+  .date-button.selected {
+    background-color: #ff6b9d;
+    color: white;
+    border-color: #ff6b9d;
+  }
+  
+  .date-button.selected:hover {
+    background-color: #e55a89;
+  }
